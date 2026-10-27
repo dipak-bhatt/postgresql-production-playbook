@@ -1,0 +1,58 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# Logs
+*.log
+logs/
+
+# PostgreSQL local data and dumps
+pgdata/
+pg_wal/
+postgres-data/
+data/
+*.pid
+*.dump
+*.backup
+*.sql.gz
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker / deployment local overrides
+docker-compose.override.yml
+compose.override.yml
+*.retry
+
+# Temporary benchmark output
+/tmp/
+*.tmp
+*.temp
